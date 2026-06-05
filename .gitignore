@@ -10,6 +10,7 @@ crash.*.log
 # Variables avec données sensibles
 terraform.tfvars
 *.auto.tfvars
+.env
 
 # Répertoires Terraform
 .terraform/

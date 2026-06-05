@@ -2,9 +2,8 @@
 # Configuration Proxmox
 # ============================================
 proxmox_api_url      = "https://192.168.0.17:8006/api2/json"
-proxmox_user         = "root@pam"
-proxmox_password     = "Admin123$"
 proxmox_tls_insecure = true
+# proxmox_user et proxmox_password sont definis dans .env (variables TF_VAR_*)
 
 
 # ============================================
