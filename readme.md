@@ -161,3 +161,5 @@ terraform apply
 - `.env`, `terraform.tfvars` et les fichiers `*.tfstate` sont **exclus de git**
   (voir `.gitignore`) car ils contiennent des données sensibles.
 - Ne jamais commiter d'identifiants. Utiliser `.env` pour les secrets.
+
+⚠️ Les identifiants dans l'historique sont purements de test.
